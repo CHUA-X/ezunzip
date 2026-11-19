@@ -4,12 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ezunzip"
-version = "2.0.0"
+version = "2.1.0"
 authors = [{ name="CHUA某人", email="chua-x@outlook.com" }]
 description = "同夹压缩速解精灵，同时解压同目录下所有任意种类压缩包"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "Apache-2.0"}
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Programming Language :: Python :: 3",
@@ -19,7 +20,6 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3 :: Only",
-    "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
     "Natural Language :: Chinese (Simplified)",
     "Intended Audience :: End Users/Desktop"
