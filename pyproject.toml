@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ezunzip"
-version = "1.0.0"
+version = "2.0.0"
 authors = [{ name="CHUA某人", email="chua-x@outlook.com" }]
 description = "同夹压缩速解精灵，同时解压同目录下所有任意种类压缩包"
 readme = "README.md"
