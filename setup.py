@@ -1,4 +1,5 @@
 from setuptools import setup
+
 setup(
-    scripts=["unzip.py"]
+    has_ext_modules=lambda: True
 )

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ezunzip"
-version = "2.1.0"
+version = "3.0.0"
 authors = [{ name="CHUA某人", email="chua-x@outlook.com" }]
 description = "同夹压缩速解精灵，同时解压同目录下所有任意种类压缩包"
 readme = "README.md"
@@ -26,11 +26,18 @@ classifiers = [
     ]
 
 dependencies = [
-    "pymsgbox",
-    "rarfile",
-    "py7zr",
-    "cabfile"
+    "pymsgbox"
 ]
+
+[project.scripts]
+ezunzip = "ezunzip.unzip:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ezunzip*"]
+
+[tool.setuptools.package-data]
+ezunzip = ["*.dll", "*.txt"]
 
 [project.urls]
 Homepage = "https://github.com/CHUA-X/Unzip/"
